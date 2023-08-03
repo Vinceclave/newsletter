@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="newsletter-container">
+        <div class="">
+            <div class="newsletter-content">
+                <h1 class="title">Stay updated!</h1>
+                <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul class="bullets">
+                    <li class="bullets-list check">Product discovery and building what matters</li>
+                    <li class="bullets-list check">Measuring to ensure updates are a success</li>
+                    <li class="bullets-list check">And much more!</li>
+                </ul>
+            </div>
+            <form>
+                <div class="email-address">
+                    <label for="email-address">Email address</label>
+                    <input type="text" id="email" name="email-address" placeholder="email@company.com">
+                </div>
+                <input type="submit" id="submit" value="Subcribe to monthly newsletter">
+            </form>
+        </div>
+        <picture class="newsletter-bg">
+            <source media="(min-width:1400px)" srcset="./assets/newsletter-bg-mobile.png">
+            <source media="(min-width:678px)" srcset="./assets/newsletter-bg-mobile.png">    
+            <img src="./assets//newsletter-bg-mobile.png" alt="">
+        </picture>
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/0bd5f0b986.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
