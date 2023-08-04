@@ -200,6 +200,10 @@ form > input[type="submit"], .thankyou-card > .dismiss-message {
 
 }
 
+form > input[type="submit"].loading {
+    color: black;
+}
+
 form > input[type="submit"]:hover, .thankyou-card > .dismiss-message:hover {
     background: rgb(255,106,58);
     background: linear-gradient(263deg, rgba(255,106,58,1) 18%, rgba(255,82,123,1) 78%);
@@ -222,9 +226,6 @@ form > .email-address > .error {
     flex-direction: column;
     justify-content: center;
     text-align: start;
-
-    border-radius: 2.25rem;
-
 }
 
 
@@ -259,5 +260,9 @@ form > .email-address > .error {
     .newsletter-bg img{
         width: 115%;
         aspect-ratio: 7/7;
+    }
+
+    .thankyou-card {
+        border-radius: 2.25rem; 
     }
 }
